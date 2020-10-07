@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form  id="form">
+            <div class="search">
+                <input type="search" id="search" name="gsearch" placeholder="Enter USER ID ">
+                <div class="group_request">
+                    <h2>What do you want to know more  about  <span id="user">user</span> ? </h2>
+                    <label for="id_book"> 
+                    <input type="checkbox" id="req_1" name="req_1" value="1">
+                    Id for required books
+                    </label>
+                    <label for="title"> 
+                    <input type="checkbox" id="req_2" name="req_2" value="2">
+                    Title for Book(s)
+                   </label><br>
+                    <label for="ques">
+                    <input type="checkbox" id="req_3" name="req_3" value="3">
+                    The request is complete or not
+                    </label>
+                </div>
+            </div>
+            <div class="btn">
+                <button value="submit" id="btn" class="bbtn">GO</button>
+                <button id="remove" value="remove" class="bbtn">Remove</button>
+            </div>
+        </form>
+        <div class="resul">
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
